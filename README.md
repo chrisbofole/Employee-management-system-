@@ -15,7 +15,9 @@ The Employee Management System  is a python-based command-line application that 
 - programming
 - testing
 - documentation
+  
 The goal is to write clean, maintainable, and reusable Python code while flowing good programming practices.
+
 #  Current features
 - project planning
 - program flowchart
