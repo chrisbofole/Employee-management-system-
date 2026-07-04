@@ -19,11 +19,6 @@ The goal is to write clean, maintainable, and reusable Python code while flowing
 # The first version of Employee Management System
 ![employee_program](./Screenshot.png)
 ![employee_program](./image_2026-07-03_214056891.png)
-
-#  Current features
-- project planning
-- program flowchart
-- modular Function Design
 # upcomming features
 -Menu system
 - Add Employee
