@@ -1,0 +1,87 @@
+FILE:	Program complete.
+DATE:	2023-06-12
+AUTHOR:	Bob Trapp
+DESCRIPTION:
+	In the Use Case diagram for the Employee Program, there is an Actor with the 
+	name "HR Clerk".  It is often useful to provide a more formal description of
+	the Actor so that everybody knows what is being discussed.  For example, 
+	someone may not know that 'HR' is a common abbreviation for 'Human 
+	Resources', i.e.: the department in an organization that manages records of 
+	employees.
+	Like with all the documents, some can be very formal and detailed while 
+	others are more informal.  The correct level of detail and formality will 
+	vary with the situation.
+	Note that Actors and Use Case Diagrams are part of the Unified Modeling 
+	Language (UML).  You will run into UML throughout your I. T. life.  In the 
+	terminology of UML, an Actor is a type of classifier, meaning that it 
+	describes the common features of something in a named group.
+	
+********************************************************************************
+
+Definition:
+	An HR Clerk is an employee assigned to the HR Department and whose primary 
+	job duty is to work directly with employee records.   The HR Clerk will also
+	assist with general administrative tasks in the HR Department, including 
+	scheduling and working with the hiring process.
+	
+Types of HR Clerk:
+	At our sample organization, there is only one kind of HR Clerk.
+	
+	On rare occasion, a temporary worker or employee from another department 
+	may take on the role of HR Clerk, but at that time, they will perform the 
+	same basic data entry and administrative tasks as the HR Clerk, though they 
+	may not participate in some of the department functions (such as hiring, 
+	firing, etc.)
+
+How does a person become an HR Clerk?
+	Persons permanently assigned the position of HR Clerk go through the normal
+	hiring process and meet all the requirements.  On hiring, the I. T. staff
+	assigns all needed permissions for necessary systems.
+	
+	Temporary employees and employees borrowed from other departments will be 
+	given permissions as needed by the I. T. staff.
+
+How does a person stop being an HR Clerk?
+	Permanently assigned HR Clerks stop being an HR Clerk when the assume 
+	another position within the organization or when their employment ends.
+	
+	Temporary employees stop being HR Clerks upon the end of their contract.
+	
+	Borrowed employees stop being an HR Clerk when there is no longer need to 
+	borrow them from other departments.
+	
+	When anyone stops being an HR Clerk, the I. T. staff removes the relevant 
+	permissions.
+	
+Can a person occupy more than one role?
+	It is possible for an employee to hold more than one position, one of which 
+	could be HR Clerk.
+	
+	An HR Manager can perform all the tasks of an HR Clerk, but would be acting 
+	as an HR Clerk at that time.
+
+What do you need to know about a person who performs this role?
+	An HR Clerk must fill the same identifying forms as all employees.  In 
+	addition, they must have at least a high school or equivalent education, 
+	with college preferred.  It is best that they have prior experience with 
+	Human Resources, but can be trained.  Additionally, they must show skill 
+	in the following tasks:
+	-	Common office processes: filing, mail handling, telephone procedures
+	-	Using computers including office productivity tools 
+	-	Spoken and written communication with internal and external clients
+	-	Multitasking and attention to details 
+	-	Reliability and trustworthiness
+
+Why is the role called what it is?
+	'HR' is a common abbreviation for 'Human Resources', which is the typical 
+	name for the department in an organization that manages employee records 
+	and processes.
+	'Clerk' is a traditional name for an employee who works with records and 
+	office administrative tasks.  The word derives from the word "cleric"
+	meaning "clergyman", the people who knew how to read and write in prior 
+	centuries.  See https://en.wikipedia.org/wiki/Clerk
+
+
+********************************************************************************
+                               END OF FILE
+********************************************************************************

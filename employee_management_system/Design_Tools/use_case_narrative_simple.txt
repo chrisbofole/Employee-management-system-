@@ -1,0 +1,91 @@
+FILE:	use_case_narrative_simple.txt
+DATE:	2023-06-18
+AUTHOR:	Bob Trapp
+PROJECT:	CIS-121 Week 06 Lab
+DESCRIPTION:
+	An informal use case narrative for the Week 06 Lab.  This provides an 
+	example of a simple use case narrative.  It does not show all the details 
+	found in a more formal document.
+	
+	NOTE:	The program can now be run in four different ways, one of which is 
+			an error.  This adds complexity to the user stories.  We have to 
+			cover all the possible states.  The three non-error ways are:
+			-	normal run (show the menu like before)
+			-	display the current version of the program 
+			-	display the help text
+	
+	NOTE: 	Because the program uses a loop, it does not end until the user 
+			chooses to end.  This adds more complexity in the form of Alternate
+			Flows.
+			The Basic Flow is the sequence of steps the program goes through on 
+			a normal, "every thing goes right" run.  It is what we think of when 
+			we think of running the program.
+			An Alternate Flow is a sequence of steps to take for an unusual 
+			behavior.  This can be due to an actual error such as an invalid 
+			option (see below) or a valid choice that is just not the more 
+			common path, such as choosing to quit.
+			A user story must have exactly one Basic Flow, and it can have 
+			zero or more Alternate Flows as needed.
+			
+			
+********************************************************************************
+
+This part is for the normal run with no command line arguments.
+
+Basic Flow - PROGRAM STARTS
+Step 1)	COMPUTER prints program title
+Step 2)	COMPUTER prints a menu of five options
+Step 3)	COMPUTER prompts the user for an option
+Step 4)	HR Clerk enters an option
+Step 5)	COMPUTER prints "You chose" and the option chosen
+Step 6)	COMPUTER prompts the HR Clerk to press Enter to continue
+Step 7)	HR Clerk presses Enter
+Step 8) Program flow returns to Basic Flow Step 2
+
+
+Alternate Flow - User Chooses to Quit (Basic Flow Step 4)
+Alt 1)	COMPUTER prints "You chose to quit the program"
+Alt 2)	COMPUTER prompts the HR Clerk to press Enter to continue
+Alt 3)	HR Clerk presses Enter
+Alt 4)	COMPUTER prints Program complete
+PROGRAM ENDS
+
+Alternate Flow - User Chooses invalid option (Basic Flow Step 4)
+Alt 1)	COMPUTER prints "Your choice was not recognized.  Please try again."
+Alt 2)	COMPUTER prompts the HR Clerk to press Enter to continue
+Alt 3)	HR Clerk presses Enter
+Alt 4)	Program flow returns to Basic Flow Step 2
+
+********************************************************************************
+Running with the version command line argument.
+
+Basic Flow - PROGRAM STARTS
+Step 1)	COMPUTER prints "Employee Program" and the current version number
+PROGRAM ENDS
+
+
+********************************************************************************
+Running with the help command line argument 
+
+Basic Flow - PROGRAM STARTS
+Step 1)	COMPUTER prints "Usage:"
+Step 2)	COMPUTER prints "python employee_program.py"
+Step 3) COMPUTER prints "python employee_program.py [-? | -h | --help]"
+Step 4)	COMPUTER prints "python employee_program.py [-v | --version]"
+PROGRAM ENDS
+
+********************************************************************************
+Running with invalid command line arguments
+
+Basic Flow - PROGRAM STARTS
+Step 1) COMPUTER prints "ERROR: Invalid number of command line arguments."
+Step 2)	COMPUTER prints "Usage:"
+Step 3)	COMPUTER prints "python employee_program.py"
+Step 4) COMPUTER prints "python employee_program.py [-? | -h | --help]"
+Step 5)	COMPUTER prints "python employee_program.py [-v | --version]"
+PROGRAM ENDS
+
+
+********************************************************************************
+                               END OF FILE
+********************************************************************************

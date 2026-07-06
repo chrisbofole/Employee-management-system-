@@ -1,0 +1,31 @@
+FILE:	Design_Document_Notes.txt
+DATE:	2023-06-15
+AUTHOR:	Bob Trapp
+DESCRIPTION:
+	This file contains notes that will need to be added to the description of 
+	the design documents uploaded for the lab.
+
+********************************************************************************
+
+The Use Case Diagram has two new Use Cases: Show Help and Show Version
+
+The flowchart from the previous labs will need to have multiple flowcharts.
+
+There is now a hierarchy chart with matching IPO charts.
+
+The User Story has greater complexity.
+
+<p>This zip file contains the design tools for the Week 05 Lab.&nbsp; It includes:</p>
+<ul>
+<li>A description of an HR Clerk, as related to the program</li>
+<li>Use Case Diagram</li>
+<li>User Story</li>
+<li>Layout Document</li>
+<li>Flowchart</li>
+</ul>
+<p>Download these and review them before doing the lab.&nbsp; Also, these can act as reference documents when it is time to make documents of your own.</p>
+
+
+********************************************************************************
+                               END OF FILE
+********************************************************************************

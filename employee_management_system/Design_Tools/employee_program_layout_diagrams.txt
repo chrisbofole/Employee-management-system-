@@ -1,0 +1,58 @@
+FILE:	employee_program_layout_diagrams.txt
+DATE:	2023-06-12
+AUTHOR:	Bob Trapp
+DESCRIPTION:
+	This document shows the planned text layouts for the Week 05 Lab which uses 
+	the Employee Program.  It is the same as the Week 04 Lab.
+	The layout design uses a plain text document to help match the text display
+	common with terminal/console programs.  A different user interface would 
+	require a more graphic layout tool.
+	Note the use of the Python comment character '#' to describe the parts of 
+	the layout to help separate them from the actual layout text.
+	
+	Remember that we use '9' as a placeholder for numerals and 'X' as a 
+	placeholder for letters.  In this program, the menu options are numbers but 
+	we are reading them as text.  This does a couple of things for us:
+	-	It lets us read a combination of letters and numbers, such as with Q
+	-	Since we are not performing math with the numbers, we save all the 
+		computer work involved with converting keyboard input (which is always 
+		text) into numbers
+	The menu uses numbers for most of the options because users tend to like 
+	numeric options, and we want to make our users comfortable.
+	
+********************************************************************************
+
+# Program Title, Menu, and User Prompt
+
+                            *** EMPLOYEE PROGRAM ***
+        -- Main Menu --
+        1) Add an Employee
+        2) Show All Employees
+        3) View an Employee
+        4) Update an Employee
+        5) Delete an Employee
+        Q) Quit
+
+Your choice: X
+
+# Response based on a valid, non-quit selection by the user:
+You chose to XXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+# Where the X represents the option text.  For example, selecting '1' gives:
+You chose to add a new employee record.
+
+# Response when the user selected 'Q' or 'q':
+You chose to quit the program.
+
+# Response when the user selected something that was not on the menu:
+Your choice was not recognized.  Please try again.
+
+# Text prompting the user to press Enter to continue:
+Press the Enter key to continue...
+
+# Text telling the user that the program is complete:
+Program complete.
+
+
+********************************************************************************
+                               END OF FILE
+********************************************************************************
