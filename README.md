@@ -3,6 +3,26 @@
 # THE FULL EMPLOYEE MANAGEMENT SYSTEM
 
 ![employee_management_system](./employee_management_system)
+Employee-Management-System/
+│
+├── README.md
+├── LICENSE
+│
+├── employee_management_system/
+│   ├── employee_program.py
+│   ├── employee_program_4.py
+│   └── (other Python modules)
+│
+├── Design_Tools/
+│   ├── employee_program_flowchart.png
+│   ├── employee_program_flowchart.svg
+│   ├── Actor_HRClerk.txt
+│   ├── Design_Document_Notes.txt
+│   └── ...
+│
+└── images/
+    ├── main_menu.png
+    ├── add_employee.png
 
 # Employee-management-system-
 An Employee Management System build with Python  that demonstrates the use of structured Programming, modular design, and problem-solving techniques. This command-line application allows users to manage employee records  through a simple, menu-driven  interface.   I developed this project step-by-step
@@ -38,4 +58,10 @@ The goal is to write clean, maintainable, and reusable Python code while flowing
   
 # Author
 Chris Bofole
-Software Engineering Student 
+## About Me
+I am **Chris Bofole**, a Cybersecurity student with a programming background in Python and Java.
+I enjoy building projects that strengthen my software development and problem-solving skills while preparing for a career in Cybersecurity, IT, and Network Security.
+
+Connect with me: LinkedIn: https://www.linkedin.com/in/chris-bofole-474260362
+- GitHub: https://github.com/chrisbofole
+ 
