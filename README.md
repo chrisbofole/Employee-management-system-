@@ -3,6 +3,8 @@ An Employee Management System build with Python  that demonstrates the use of st
 
 # markdown
 ![Flowchart Description](./employee_program_flowchart.png)
+![employee_program_4](./image_2026-07-06_150333779.png)
+
 
 # Overview
 The Employee Management System  is a python-based command-line application that allows user to manage employees record.
