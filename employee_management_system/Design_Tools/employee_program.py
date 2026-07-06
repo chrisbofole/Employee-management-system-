@@ -1,24 +1,12 @@
 #   FILE:   employee_program.py
 #   VERSION:    2.0
-#   DATE:   2021-04-04 -- Use ISO-8601 date format YYYY-MM-DD
-#   AUTHOR: Bob Trapp -- use the student's name
+#   DATE:   2026-06-22
+#   AUTHOR: Chris Bofole
+#   INSTRUCTOR: BOB TRAPP
 #   VERSION:    1.0.2
 #   DESCRIPTION:
 """
-This is the second lab for the employee program example.  The
-employee program example will grow and change as new concepts are 
-added throughout the semester.
-
-The full program at the end of semester will have a menu as its 
-primary control state.  This program displays a menu, asks the 
-user for a choice, and then displays a message based on the 
-choice made by the user.
-
-Note: Users like to enter numbers for menu options but we aren't 
-using the numbers for math.  That means we can read the values
-as strings.  This will keep the program from crashing if the 
-user enters a non-numeric value.
-
+This is the second lab for the employee program.
 Note: This program also introduces the "Press Enter to continue... " concept.
 This is a good way to get users to stop and read the output before going 
 forward (something they are not prone to doing).  To do this, we use the input()
