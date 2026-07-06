@@ -1,6 +1,6 @@
 FILE:	Design_Document_Notes.txt
-DATE:	2023-06-15
-AUTHOR:	Bob Trapp
+DATE:	2025-06-15
+AUTHOR:	Bob, Chris bofole
 DESCRIPTION:
 	This file contains notes that will need to be added to the description of 
 	the design documents uploaded for the lab.
