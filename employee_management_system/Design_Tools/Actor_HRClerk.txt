@@ -1,20 +1,10 @@
 FILE:	Program complete.
 DATE:	2025-06-12
-AUTHOR:	Chris bofole , bob
+AUTHOR:	Chris bofole 
+INSTRUCTOR: BOB 
 DESCRIPTION:
 	In the Use Case diagram for the Employee Program, there is an Actor with the 
-	name "HR Clerk".  It is often useful to provide a more formal description of
-	the Actor so that everybody knows what is being discussed.  For example, 
-	someone may not know that 'HR' is a common abbreviation for 'Human 
-	Resources', i.e.: the department in an organization that manages records of 
-	employees.
-	Like with all the documents, some can be very formal and detailed while 
-	others are more informal.  The correct level of detail and formality will 
-	vary with the situation.
-	Note that Actors and Use Case Diagrams are part of the Unified Modeling 
-	Language (UML).  You will run into UML throughout your I. T. life.  In the 
-	terminology of UML, an Actor is a type of classifier, meaning that it 
-	describes the common features of something in a named group.
+	name "HR Clerk"
 	
 ********************************************************************************
 
